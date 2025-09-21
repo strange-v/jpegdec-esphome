@@ -1,0 +1,4 @@
+version: "1.8.3-fix"
+description: "bitbank2 JPEGDEC with ESP32-S3 SIMD"
+targets:
+  - esp32s3
