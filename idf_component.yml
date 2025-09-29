@@ -2,4 +2,7 @@ name: jpegdec
 version: "1.8.3"
 description: "bitbank2 JPEGDEC with ESP32-S3 SIMD"
 targets:
+  - esp32
+  - esp32s2
   - esp32s3
+  - esp32p4
