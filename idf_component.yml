@@ -9,12 +9,13 @@ targets:
 dependencies:
   espressif/esp-dsp: "^1.7.0"
 files:
-  - CMakeLists.txt
-  - JPEGDEC.cpp
-  - jpeg.inl
-  - s3_simd_420.S
-  - s3_simd_444.S
-  - s3_simd_dequant.S
-  - include/**
-  - LICENSE
-  - README.md
+  include:
+    - CMakeLists.txt
+    - JPEGDEC.cpp
+    - jpeg.inl
+    - s3_simd_420.S
+    - s3_simd_444.S
+    - s3_simd_dequant.S
+    - include/**
+    - LICENSE
+    - README.md
